@@ -60,4 +60,7 @@ void swapBehind(listint_t **list, listint_t **ta, listint_t **sh);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 int max_value(int *arr, int s);
+void sub_arr(int *sub, int *buff, size_t front, size_t mid, size_t back);
+void recursive_sort(int *sub, int *buff, size_t front, size_t back);
+void merge_sort(int *array, size_t size);
 #endif
