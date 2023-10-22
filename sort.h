@@ -63,4 +63,7 @@ int max_value(int *arr, int s);
 void sub_arr(int *sub, int *buff, size_t front, size_t mid, size_t back);
 void recursive_sort(int *sub, int *buff, size_t front, size_t back);
 void merge_sort(int *array, size_t size);
+void swap_intGers(int *I, int *J);
+void heap_max(int *arr, size_t s, size_t b, size_t ro);
+void heap_sort(int *array, size_t size);
 #endif
