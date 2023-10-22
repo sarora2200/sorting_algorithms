@@ -66,4 +66,7 @@ void merge_sort(int *array, size_t size);
 void swap_intGers(int *I, int *J);
 void heap_max(int *arr, size_t s, size_t b, size_t ro);
 void heap_sort(int *array, size_t size);
+int max_radixvalue(int *arr, int s);
+void radix_count(int *arr, size_t s, int sig, int *buffer);
+void radix_sort(int *array, size_t size);
 #endif
