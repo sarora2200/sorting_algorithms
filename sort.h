@@ -55,4 +55,7 @@ void quick_sort_hoare(int *array, size_t size);
 
 void swap_intgers(int *I, int *J);
 void sort(int *arr, size_t s);
+void swapAhead(listint_t **list, listint_t **ta, listint_t **sh);
+void swapBehind(listint_t **list, listint_t **ta, listint_t **sh);
+void cocktail_sort_list(listint_t **list);
 #endif
